@@ -19,9 +19,10 @@ body {
 .card {
     display: flex;
     flex-direction: column;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 800px;
     margin: 200px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;;
 }
 
 .hero-content {
