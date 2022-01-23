@@ -19,19 +19,31 @@ body {
 .card {
     display: flex;
     flex-direction: column;
-    /* border: 1px solid black; */
-    width: 800px;
+    width: 700px;
     margin: 200px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;;
 }
 
 .hero-content {
-    margin: 30px;
+    margin: 30px 50px;
 }
 
 .hero-title {
     color: var(--cyan);
+    font-size: 32px;
+    margin-bottom: 20px;
+    letter-spacing: -1px;
+    font-weight: 700;
+}
 
+.hero-copy {
+    color: var(--grayish-blue);
+    
+}
+
+.sub-header {
+    color: var(--bright-yellow);
+    margin-bottom: 10px;
 }
 
 .bottom-wrapper {
@@ -44,9 +56,11 @@ body {
 }
 
 .subscription-container {
-    border: 1px solid green;
-    margin: 10px;
     flex: 1;
+}
+
+.sub-title {
+    
 }
 
 .about-us-container {
