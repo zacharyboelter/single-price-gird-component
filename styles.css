@@ -104,6 +104,12 @@ body {
 
 }
 
+.sign-up-btn:hover {
+        box-shadow: 0 0.5em 0.5em -0.4em hsl(165, 29%, 26%);
+        transform: translateY(-0.25em);
+      }
+
+
 /* bottom right side */
 
 .about-us-container {
