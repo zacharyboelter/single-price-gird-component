@@ -22,7 +22,7 @@ body {
     display: flex;
     flex-direction: column;
     width: 640px;
-    margin: 200px;
+    margin: 0px 200px 0 200px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
     border-radius: 5px;
     background-color: rgb(244, 244, 244);
@@ -134,11 +134,11 @@ body {
 /* Extra stuff */
 
 .attribution { 
-    margin-bottom: 100px;
-    font-size: 11px; text-align: center; 
+    margin-top: 60px;
+    font-size: 12px; text-align: center; 
 }
 
 .attribution a { 
-    color: hsl(228, 45%, 44%); 
+    color:var(--cyan); 
 }
 
