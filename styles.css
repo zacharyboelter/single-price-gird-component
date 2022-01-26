@@ -14,6 +14,7 @@ body {
     align-items: center;
     flex-direction: column;
     font-family: 'Karla', sans-serif;
+    height: 100vh;
 }
 
 /* whole card */
@@ -22,13 +23,16 @@ body {
     flex-direction: column;
     width: 640px;
     margin: 200px;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+    border-radius: 5px;
+    
 }
 
 /* top half */
 
 .hero-content {
     margin: 30px 50px;
+    border-radius: 5px 5px 0 0;
 }
 
 .hero-title {
@@ -52,7 +56,7 @@ body {
 
 .bottom-wrapper {
     display: flex;
-    height: 220px;
+    height: 250px;
 }
 
 /* bottom left side */
@@ -60,37 +64,73 @@ body {
 .subscription-container {
     flex: 1;
     background-color: var(--cyan);
-color: white;
+    color: white;
+    border-radius: 0 0 0 5px;
 }
 
 .sub-title {
-    margin: 20px 50px;
+    margin: 30px 40px 0 40px;
+    font-size: 20px;
+    font-weight: 700;
 }
 
 .price {
     font-size: 32px;
-    margin: 10px 50px;
+    margin: 10px 40px;
 }
 
 .per-month {
     font-size: 16px;
     color: var(--light-gray);
     margin-bottom: 15px;
+    opacity: .8;
+}
+
+.sub-copy {
+    text-align: center;
+}
+
+.sign-up-btn {
+    background-color: var(--bright-yellow);
+    text-align: center;
+    margin: 30px 40px;
+    padding: 12px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;;
+
 }
 
 /* bottom right side */
 
 .about-us-container {
     flex: 1;
-    background-color: hsl(179, 58%, 53%);
+    background-color: hsl(179, 54%, 51%);
     color: var(--light-gray);
+    border-radius: 0 0 5px 0;
 }
+
+.about-title {
+    margin: 30px 40px 0 40px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.about-copy {
+    margin: 20px 40px 15px 40px;
+    line-height: 1.2rem;
+    font-size: 14px;
+    color: hsl(205, 52%, 91%);
+    font-weight: lighter;
+    opacity: .8;
+}
+
 
 
 
 /* Extra stuff */
 
 .attribution { 
+    margin-bottom: 100px;
     font-size: 11px; text-align: center; 
 }
 
