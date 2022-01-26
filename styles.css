@@ -60,11 +60,22 @@ body {
 .subscription-container {
     flex: 1;
     background-color: var(--cyan);
-    color: var(--light-gray);
+color: white;
 }
 
 .sub-title {
     margin: 20px 50px;
+}
+
+.price {
+    font-size: 32px;
+    margin: 10px 50px;
+}
+
+.per-month {
+    font-size: 16px;
+    color: var(--light-gray);
+    margin-bottom: 15px;
 }
 
 /* bottom right side */
